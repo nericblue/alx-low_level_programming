@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <unistd.h>
 
 /**
  * main - Entry point
@@ -11,11 +10,18 @@
 
 int main(void)
 {
-	char low;
+	int i = 0, j;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
-
+	while (i < 3)
+{
+		j = 0;
+		while (j < 3)
+		{
+		printf("%d ", j);
+		j++;
+		}
+	printf("\n");
+		i++;
+}
 	return (0);
 }
