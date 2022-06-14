@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int array[5];
+
+	array[0] = 12;
+	array[1] = 23;
+	array[2] = -43;
+	array[3] = 4567;
+	array[4] = -998;
+	print_array(array, 5);
+	return (0);
+}
