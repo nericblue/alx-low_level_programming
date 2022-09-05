@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _puts - Write a function that prints a string, followed
@@ -6,6 +6,7 @@
  * @str: an input string
  * Return: Nothing
  */
+
 void _puts(char *str)
 {
 	int i = 0;
